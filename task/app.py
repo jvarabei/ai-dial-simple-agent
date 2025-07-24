@@ -14,8 +14,8 @@ def main():
         #TODO: Here you can chose different models. With DIAL you are not depend on vendor Specification, you can use
         # any model that you want with DIAL Specification. https://dialx.ai/dial_api#operation/sendChatCompletionRequest
         deployment_name="gpt-4o",
-        # deployment_name="gemini-2.5-pro-preview-03-25",
-        # deployment_name="anthropic.claude-3-7-sonnet-20250219-v1:0",
+        # deployment_name="gemini-2.5",
+        # deployment_name="claude-3-7-sonnet@20250219",
         api_key=API_KEY,
         tools=[
             #TODO: add tools:
